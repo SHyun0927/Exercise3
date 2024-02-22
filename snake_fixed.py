@@ -168,8 +168,7 @@ def game_loop():
         # If snake is out of boundaries(edge of the window), then the  game finishes
         
         # I have set snake_x <= 0 or snake_y <= 0 to < 0
-        # To prevent the gameover when snake is on the edge of  the window (which is not  out of the screen)
-        #  
+        # To prevent the gameover when snake is on the edge of  the window (which is not  out of the screen)    
         if snake_x >= 1000 or snake_x < 0 or snake_y >= 720 or snake_y < 0:
             game_over = True
 
